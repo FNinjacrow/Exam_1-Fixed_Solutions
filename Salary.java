@@ -11,14 +11,6 @@ public class Salary
     private int netPay;
 
     /**
-     * Constructor for objects of class Salary
-     */
-    public Salary()
-    {
-        
-    }
-
-    /**
      * An example of a method - replace this comment with your own
      *
      * @param  y  a sample parameter for a method
@@ -26,8 +18,8 @@ public class Salary
      */
     public double netPay(int salary)
     {
-        //int deduction = salary * 0.3; //needs to be converted from int to double
-        //netPay = salary - deduction; //needs to be converted from int to double
+        double deduction = salary * 0.3; //needs to be converted from int to double
+        double netPay = salary - deduction; //needs to be converted from int to double
         return netPay;
     }
 }
